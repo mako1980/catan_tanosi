@@ -30,7 +30,7 @@ $(function() {
     $('#oa1').text(oa1);
     $('#oa2').text(oa2);
     $('#oa3').text(oa3);
-    $('#oa').text(oa1 + oa2 + oa3);
+    $('#oa').text((oa1 + oa2 + oa3).toFixed(1));
 
     var ib1 = $('#ib1').val();
     var ib2 = $('#ib2').val();
@@ -41,7 +41,7 @@ $(function() {
     $('#ob1').text(ob1);
     $('#ob2').text(ob2);
     $('#ob3').text(ob3);
-    $('#ob').text(ob1 + ob2 + ob3);
+    $('#ob').text((ob1 + ob2 + ob3).toFixed(1));
 
     var ic1 = $('#ic1').val();
     var ic2 = $('#ic2').val();
@@ -52,7 +52,7 @@ $(function() {
     $('#oc1').text(oc1);
     $('#oc2').text(oc2);
     $('#oc3').text(oc3);
-    $('#oc').text(oc1 + oc2 + oc3);
+    $('#oc').text((oc1 + oc2 + oc3).toFixed(1));
 
   });
 });
