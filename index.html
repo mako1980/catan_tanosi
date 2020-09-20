@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>catan_tanosi</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body class="dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1><img src="img/fune.png" alt="btext" width="25" height="25"> カタン攻略</h1>
+                <span>出やすい場所を計算</span><br>
+            </div>
+        </div>
+        <div>
+            <h2>場所Ａ</h2>
+            <input type="text" id="ia1" placeholder="タイルの数字１"><span id="oa1"></span><br>
+            <input type="text" id="ia2" placeholder="タイルの数字２"><span id="oa2"></span><br>
+            <input type="text" id="ia3" placeholder="タイルの数字３"><span id="oa3"></span><br>
+            確率合計：<span id="oa"></span>
+
+            <h2>場所Ｂ</h2>
+            <input type="text" id="ib1" placeholder="タイルの数字１"><span id="ob1"></span><br>
+            <input type="text" id="ib2" placeholder="タイルの数字２"><span id="ob2"></span><br>
+            <input type="text" id="ib3" placeholder="タイルの数字３"><span id="ob3"></span><br>
+            確率合計：<span id="ob"></span>
+
+            <h2>場所Ｃ</h2>
+            <input type="text" id="ic1" placeholder="タイルの数字１"><span id="oc1"></span><br>
+            <input type="text" id="ic2" placeholder="タイルの数字２"><span id="oc2"></span><br>
+            <input type="text" id="ic3" placeholder="タイルの数字３"><span id="oc3"></span><br>
+            確率合計：<span id="oc"></span>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <button type="button" id="button_keisan" value="value">確率計算</button>
+            </div>
+            <div class="col-md-6">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <button type="button" id="button_clear" value="value">消す</button>
+            </div>
+            <div class="col-md-6">
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-2">
+                <a href="https://github.com/mako1980/btext" target="_blank" class="logo"><span class="logo_label">catan_tanosi</span></a>
+            </div>
+            <div class="col-md-8">
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8">
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
